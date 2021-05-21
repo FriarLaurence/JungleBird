@@ -9,9 +9,11 @@ pygame.init()
 screen = pygame.display.set_mode( (800,800) )
 
 #Level
-background = pygame.image.load('first_map.png')
-def first_map_boundaries():
-    
+background = pygame.image.load('test_map.png')
+def first_map_boundaries(x):
+    #somehow make a function that stalls movement when player makes contact with white pixel in the background
+    pass
+
 
 #Title and Icon
 pygame.display.set_caption("Jake")
